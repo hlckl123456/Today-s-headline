@@ -34,24 +34,25 @@ Data support:
 ### 1.3 Source code structure
 
 NewsFeeds
-├── **Graphs**  system architecture
-├── **README.md** Development document
-├── **NewsFeed_Android** Android Source code
-├── **Scripts** News data related script
-│   ├── **word2vec** Chinese corpus training script
-│   ├── **config.ini** Config file
-│   ├── **modelUpdater.py** Recommended system related script
-│   ├── **newsCrawler.py** News crawl script
-│   ├── **service.py** Server background resident process script
-└── **Server** 
-├── **app.js Node.js** 
-├── **bin** Server startup script
-├── **config.json** Website configuration file (server address, database source, etc.)
-├── **package.json Node.js** Dependence declaration\
-├── **public**  static website file
-├── **routes** Node.js routes
-├── **scripts** Website backend logic implementation
-└── **views** front end
+
+- **Graphs**  system architecture
+- **README.md** Development document
+- **NewsFeed_Android** Android Source code
+- **Scripts** News data related script
+  - **word2vec** Chinese corpus training script
+  -  **config.ini** Config file
+  - **modelUpdater.py** Recommended system related script
+  - **newsCrawler.py** News crawl script
+  - **service.py** Server background resident process script
+- **Server** 
+  -  **app.js Node.js** 
+  - **bin** Server startup script
+  -  **config.json** Website configuration file (server address, database source, etc.)
+  -  **package.json Node.js** Dependence declaration\
+  - **public**  static website file
+  -  **routes** Node.js routes
+  -  **scripts** Website backend logic implementation
+  -  **views** front end
 
 ### 1.4 Running environment
 
