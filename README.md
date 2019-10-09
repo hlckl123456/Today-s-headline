@@ -2,7 +2,7 @@
 
 ## 1.Project summary
 
-###1.1 Brief intro
+### 1.1 Brief intro
 
 A dynamic website which collect, organize latest news with personalized recommendations.
 
@@ -22,7 +22,7 @@ Data support:
 - For news data processing, we use the datasets from Wikipedia and use Word2Vec algorithm and relevant tools to establish chinese keywords modeling. We use this model to do recommend the news that user interested according to relavant words.
 - We also use Microsoft Axure’s recommendation api to implement personalized recommendation.
 
-###1.2 Modules
+### 1.2 Modules
 
 
 
