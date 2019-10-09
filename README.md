@@ -137,21 +137,21 @@ npm start
 
 Since this project uses MongDB based on document storage, each news uses a JSON-like data type store and does not require a fixed schema (Schema). However, in order to facilitate subsequent modeling and display, the news crawling module needs to store the data crawled by each news website in the database according to the following fields and their corresponding meanings:
 
-```json
+```
 {
-	"_id" : 新闻id,
-	"title" : 新闻标题（唯一索引项）,
-	"source" : 新闻来源,
-	"time" : 发表时间,
-	"abstract" : 新闻摘要,
-	"comments_count" : 新闻评论数,
-	"favorite_count" : 新闻收藏数,
-	"genre" : 新闻类别,
-	"has_image" : 是否有图片,
-	"imgurls" : 图片链接(数组),
-	"keywords" : 标题包含关键词(数组), 
-	"related_words" : 其他相关关键词(数组),
-	"uploaded" : 是否已上传到微软认知服务模型
+	"_id" : news id,
+  "title" : news headline (unique index item),
+  "source" : news source,
+  "time" : the time of publication,
+  "abstract" : news summary,
+  "comments_count" : number of news comments,
+  "favorite_count" : number of news collections,
+  "genre" : news category,
+  "has_image" : Is there a picture,
+  "imgurls" : image link (array),
+  "keywords" : The title contains keywords (array),
+  "related_words" : Other related keywords (array),
+  "uploaded" : Whether it has been uploaded to the Microsoft Cognitive Service Model
 }
 ```
 
