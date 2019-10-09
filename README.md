@@ -70,34 +70,34 @@ NewsFeeds
 
 ```json
 {
-  "host": "服务器主机地址",
-  "port": "服务器主机端口",
-  "connect": "MongoDB连接字符串",
-  "newscol": "MongoDB新闻数据库名",
-  "usercol": "MongoDB用户数据库名",
+  "host": "Server host",
+  "port": "Server host port",
+  "connect": "MongoDB connection string",
+  "newscol": "MongoDB news database name",
+  "usercol": "MongoDB user database name",
   "mailoptions": {
-    "service": "邮件服务",
-    "email": "邮箱账号",
-    "password": "邮箱密码"
+    "service": "Mail service",
+    "email": "Mail account",
+    "password": "Mail password"
   },
   "redis": {
-    "port": "Redis端口",
-    "host": "Redis服务器地址"
+    "port": "Redis port",
+    "host": "Redis host address"
   },
   "database": {
-    "host": "MongoDB数据库服务器地址",
-    "port": "MongoDB服务器端口",
-    "user": "Mongo用户名",
-    "password": "密码"
+    "host": "MongoDB host address",
+    "port": "MongoDB port",
+    "user": "Mongo username",
+    "password": "password"
   },
   "api": {
-    "modelid": "微软认知服务-推荐系统模型ID",
+    "modelid": "Microsoft cognitive services-recommendation system modelID",
     "endpoint": "https://westus.api.cognitive.microsoft.com/recommendations/v4.0",
-    "token": "微软认知服务认证Token"
+    "token": "Microsoft cognitive services certification token"
   },
   "genres": {
-    "personal": "推荐",
-    "hot": "热门",
+    "personal": "recommended",
+    "hot": 
     "society": "社会",
     "domestic": "国内",
     "global": "国际",
